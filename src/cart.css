@@ -1,0 +1,85 @@
+.a_main {
+    background-color: rgb(244, 248, 248);
+    height: 100vh;
+}
+
+.a_main>.cart {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: rgb(244, 248, 248);
+    box-shadow: 5px 5px 8px rgb(218, 215, 215), -5px -5px 8px white;
+}
+
+.a_main>.cart>.heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px 15px 30px;
+}
+
+.a_main>.cart>.data {
+    display: flex;
+}
+
+.a_main>.cart>.data>.img {
+    flex: 30%;
+}
+
+.a_main>.cart>.data>.content {
+    flex: 70%;
+}
+
+.img>img {
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.a_main>.cart>.data>.content>.buttons {
+    display: flex;
+}
+
+.price {
+    margin-right: 20px;
+}
+
+.price>p {
+    text-decoration: underline;
+    color: red;
+}
+
+.a_main>.cart>.data>.content>.buttons>div {
+    /* margin-left: 10px; */
+}
+
+.minus,
+.plus {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.number>p {
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    margin-left: 30px;
+}
+
+.price {
+    margin-right: 25px;
+}

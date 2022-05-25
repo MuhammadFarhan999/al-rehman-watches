@@ -1,0 +1,172 @@
+.d_main {
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.295), white); */
+    height: 100vh;
+    display: flex;
+}
+
+.d_main>.image {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.d_main>.content {
+    flex: 50%;
+    margin: 80px 100px 0px 100px;
+}
+
+#carouselExampleControls {
+    height: 500px;
+    width: 500px;
+}
+
+.price {
+    margin: 20px 0px;
+    font-weight: 400;
+}
+
+span {
+    color: rgb(38, 130, 235);
+}
+
+.desp>button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(230, 230, 230);
+    cursor: none;
+}
+
+.year {
+    margin-left: 20px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons>button {
+    padding: 15px 0px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-size: large;
+}
+
+.buy {
+    background-color: rgb(35, 161, 92);
+    padding: 15px 0px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-size: large;
+}
+
+.buy:hover {
+    background-color: rgb(27, 125, 71);
+}
+
+.buttons>.link>.cart {
+    background-color: rgb(195, 144, 82);
+    padding: 15px 0px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-size: large;
+}
+
+.buttons>.link>.cart:hover {
+    background-color: rgb(137, 108, 66);
+}
+
+.buttons>.link>.contact {
+    background-color: white;
+    color: rgb(35, 161, 92);
+    border: 1px solid rgb(35, 161, 92);
+    transition: 0.5s;
+    padding: 15px 0px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: large;
+}
+
+.buttons>.link>.contact:hover {
+    background-color: rgb(35, 161, 92);
+    color: white;
+}
+
+.info {
+    padding-top: 30px;
+}
+
+.info>h2 {
+    text-align: center;
+    color: #3b3b3b;
+}
+
+.b_info {
+    display: flex;
+    height: 100vh;
+}
+
+.b_info>.basic {
+    flex: 50%;
+    padding: 30px 0px 0px 30px;
+}
+
+.b_info>.basic>table {
+    width: 100%;
+}
+
+.b_info>.basic>table>thead {
+    font-size: x-large;
+}
+
+.b_info>.basic>table>thead>th {
+    padding-bottom: 10px;
+}
+
+.b_info>.basic>table>tbody>tr {
+    border-top: 0.5px solid rgba(128, 127, 127, 0.541);
+    border-bottom: 0.5px solid rgba(128, 127, 127, 0.541);
+}
+
+.b_info>.basic>table>tbody>tr>td {
+    padding: 10px 0px;
+    font-size: large;
+    text-align: initial;
+}
+
+.b_info>.basic>table>tbody>tr>td:nth-child(1) {
+    font-weight: bold;
+}
+
+.b_info>.description {
+    flex: 50%;
+    margin: 30px 50px 0px 0px;
+}
+
+.b_info>.description>p {
+    font-size: large;
+    text-align: justify;
+    font-style: italic;
+}
+
+.b_info>.description>h2 {
+    margin-left: 35px;
+    margin-bottom: 20px;
+}

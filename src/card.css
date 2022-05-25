@@ -1,0 +1,62 @@
+.heading>h3 {
+    padding: 40px 0px;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.39), white);
+}
+
+.card_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card_main>.card {
+    margin-bottom: 20px;
+}
+
+.card_main>.card>img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.button {
+    margin-top: 30px;
+    position: absolute;
+    left: 600px;
+    animation: animate 1.5s infinite ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button>button {
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.527);
+    transition: 0.5s;
+}
+
+.button>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.button>button:hover {
+    background-color: white;
+}
+
+.button>button:hover a {
+    color: black;
+}

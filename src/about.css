@@ -1,0 +1,38 @@
+.a_main {
+    height: 80vh;
+    display: flex;
+    padding-top: 40px;
+}
+
+.a_main>.image {
+    flex: 50%;
+}
+
+.a_main>.image>img {
+    height: 400px;
+    width: 550px;
+    box-shadow: 0px 0px 25px rgba(38, 38, 38, 0.418);
+}
+
+.a_main>.content {
+    flex: 50%;
+}
+
+.a_main>.content>h2 {
+    /* text-align: center; */
+    margin-bottom: 30px;
+}
+
+.a_main>.content>p {
+    padding: 0px 100px 0px 0px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.a_main>.content>button {
+    background-color: rgb(92, 99, 106);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+}

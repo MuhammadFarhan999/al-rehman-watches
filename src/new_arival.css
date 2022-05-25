@@ -1,0 +1,110 @@
+.new_arival {
+    height: 100vh;
+    background-color: rgba(220, 220, 220, 0.575);
+}
+
+.n_card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.new_arival>h2 {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.n_card>.card {
+    height: 400px;
+    width: 250px;
+    box-shadow: 0px 5px 10px grey;
+    overflow: hidden;
+}
+
+.n_card>.card>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.n_card>.card:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.n_card>.card>.na_content {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.644), rgba(255, 255, 255, 0.342));
+    position: absolute;
+    top: 400px;
+    color: white;
+}
+
+.n_card>.card:hover .na_content {
+    transition: 0.5s;
+    top: 0px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.na_content>.data {
+    position: absolute;
+    bottom: 0px;
+    padding: 0px 10px 10px 10px;
+}
+
+.na_content>.data>p {
+    margin-left: 0px;
+}
+
+.button {
+    /* margin-top: 30px;
+    position: absolute;
+    left: 600px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: animate 1.5s infinite ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button>button {
+    background-color: rgb(107, 107, 107);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.527);
+    transition: 0.5s;
+}
+
+.button>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.button>button:hover {
+    background-color: rgb(208, 208, 208);
+}
+
+.button>button:hover a {
+    color: black;
+}
